@@ -5,19 +5,6 @@ def user_data(first_name,last_name,age):
     print(f"Yosh:{age}")
 user_data('Sevinch','Karimboyeva',19)
 
-# 2-misol
-def find_max(a,b,c):
-    katta=max(a,b,c)
-    katta_son=[]
-    if a==katta:
-        katta_son.append("A")
-    elif b==katta:
-        katta_son.append("B")
-    else:
-        katta_son.append("C")
-    print(f"Eng katta son-{katta_son}")
-find_max(5,3,1)
-
 # 4-misol
 def list_sum(myList):
     yigindi=sum(myList)

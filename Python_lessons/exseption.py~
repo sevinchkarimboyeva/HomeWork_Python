@@ -1,0 +1,26 @@
+# yosh=input("Yoshingizni kiriting: ")
+# try:
+#     yosh=int(yosh)
+#     print(f"Siz {2025-yosh} yilda tug'ilgansiz")
+# except:
+#     print("Kechirasz,Siz butun son kiritmadingiz!")
+#
+# print("Dastur tugadi!")
+#
+# x,y=5,10
+# try:
+#     y/(x-5)
+# except ZeroDivisionError:
+#     print(f"0 ga bo'lib bo'lmaydi")
+#
+#     
+n=input("Butun son kiriting: ")
+try:
+    n=int(n)
+    x=20/n
+except ValueError:
+    print(f"Butun son kiritmadingiz")
+except ZeroDivisionError:
+    print("0 ga bo'lib bo'lmaydi")
+else:
+    print(f"x={x}")

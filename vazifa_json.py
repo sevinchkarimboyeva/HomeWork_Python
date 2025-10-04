@@ -36,7 +36,7 @@ for student in talabalar_list:
     year=student['year']
     faculty=student['faculty']
 
-print(f"Id:{id},\nIsm-Familiyasi:{name} {lastname},\nYili:{year} \nFakulteti:{faculty}")
+    print(f"Id:{id},\nIsm-Familiyasi:{name} {lastname},\nYili:{year} \nFakulteti:{faculty}")
 
 
 
